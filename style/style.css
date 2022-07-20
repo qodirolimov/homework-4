@@ -1,11 +1,126 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.main {
+  width: 700px;
+  height: 790px;
+  margin-left: 400px;
+  margin-top: 100px;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.main__title {
+  position: relative;
+  padding-left: 90px;
+  width: 610px;
+  color: white;
+  padding-top: 40px;
+  height: 90px;
+  background-color: cornflowerblue;
+}
+.main__title::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  left: -30px;
+  top: -24px;
+  background-color: rgb(255, 255, 255);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.main__title__line {
+  width: 1px;
+  position: relative;
+  padding-left: 320px;
+  height: 2px;
+  color: silver;
+  background-color: silver;
+}
+.main__title__line::before {
+  width: 320px;
+  content: "";
+  margin-left: 60px;
+  display: block;
+  height: 2px;
+  background-color: silver;
+}
+.main__date__first {
+  color: silver;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  left: 10px;
+}
+.main__text__first {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(210, 233, 233);
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 22px;
+}
+.main__date__second {
+  margin-left: 640px;
+  color: silver;
+  font-size: 20px;
+}
+.main__text__second {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(247, 239, 239);
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-left: 270px;
+}
+.main__date__three {
+  color: silver;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+}
+.main__text__three {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(210, 233, 233);
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.main__text__fourth {
+  margin-top: 40px;
+  margin-left: 332px;
+  width: 340px;
+  height: 37px;
+  background-color: rgb(240, 175, 194);
+  padding-left: 20px;
+  padding-top: 10px;
+  border: 2px;
+  font-size: 22px;
+}
+.main__line__second {
+  width: 620px;
+  height: 2px;
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color: silver;
+}
+.main__label {
+  margin-left: 400px;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 900;
+}
+.main__a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.main__input {
+  width: 199px;
+  height: 60px;
+  border: white;
+  font-size: 22px;
 }/*# sourceMappingURL=style.css.map */
