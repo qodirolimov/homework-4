@@ -1,0 +1,26 @@
+  
+  
+  .main {
+    width: 700px;
+    height: 790px;
+    margin-left: 400px;
+    margin-top: 100px;
+    background-color: yellowgreen;
+
+    &__title {
+      position: relative;
+     margin-left: 40px;
+      width: 700px;
+      height: 90px;
+      background-color: cornflowerblue;
+    }
+
+    &__line{
+      width: 400px;
+      height: 2px;
+      border: 4px solid greenyellow;
+    }
+
+   
+  }
+
